@@ -1,5 +1,6 @@
 # Cookie Monster Secret Recipe (PicoCTF)
 > Categoria: Web Exploitation
+> 
 > Autor: Brhane Giday e Prince Niyonshuti N.
 
 ## Desafio: Cookie Monster Secret Recipe
@@ -81,3 +82,4 @@ Agora que temos o valor do nosso cookie e seu tipo de codificação basta decodi
 Este desafio abordou conceitos básicos de web exploitation, ele nos ensina a usar as ferramentas que estão ao nosso dispor nos navegadores para achar informações importantes de maneira leve e cômica. Essas ferramentas são fundamentais para a carreira de cybersegurança, onde é preciso usar todos os recursos disponíveis de maneira eficiente. Também é importante notar que testamos hipóteses simples, sem complicar demais a resolução — uma característica importante e que pode passar despercebida.
 
 Durante a resolução do desafio somos treinados a entender que às vezes informações podem estar escondidas em lugares além do que conseguimos ver, melhorando nosso processo investigativo e curiosidade.
+
