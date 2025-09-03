@@ -32,6 +32,7 @@ Clicando na palavra **"here"** somos direcionados ao site do Come-Come, porém, 
 (**3** Navegadores muitas vezes tem ferramentas que podem ajudar você a inspecionar vários aspectos de uma página, incluindo coisas que você não consegue ver diretamente.)
 
 Print do enunciado da questão:
+
 [![enunciado.jpg](https://i.postimg.cc/bJDHhttT/enunciado.jpg)](https://postimg.cc/2bYBd3Tb)
 
 #### Interpretação
@@ -45,6 +46,7 @@ Retornando ao website, nos deparamos com uma página de login e o título do sit
 
 Considerando o funcionamento dos cookies, primeiro temos que gerá-los ao interagir com a página, para isso, fazemos uma tentativa de login.
 Ao tentar logar nos deparamos com essa página:
+
 [![access denied.jpg](https://i.postimg.cc/B6NhMSN2/Access-denied.jpg)](https://postimg.cc/R66Q0zk0)
 > (Acesso negado
 Come-Come diz: 'Eu não precisar de nenhuma senha. Eu só precisar de biscoitos!'
@@ -77,4 +79,5 @@ Agora que temos o valor do nosso cookie e seu tipo de codificação basta decodi
 
 #### Conclusão
 Este desafio abordou conceitos básicos de web exploitation, ele nos ensina a usar as ferramentas que estão ao nosso dispor nos navegadores para achar informações importantes de maneira leve e cômica. Essas ferramentas são fundamentais para a carreira de cybersegurança, onde é preciso usar todos os recursos disponíveis de maneira eficiente. Também é importante notar que testamos hipóteses simples, sem complicar demais a resolução — uma característica importante e que pode passar despercebida.
+
 Durante a resolução do desafio somos treinados a entender que às vezes informações podem estar escondidas em lugares além do que conseguimos ver, melhorando nosso processo investigativo e curiosidade.
