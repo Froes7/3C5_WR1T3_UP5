@@ -3,7 +3,6 @@
 > 
 > Autor: Brhane Giday e Prince Niyonshuti N.
 
-## Desafio: Cookie Monster Secret Recipe
 #### Introdução
 Este [CTF](https://en.wikipedia.org/wiki/Capture_the_flag_(cybersecurity)) é um desafio de dificuldade fácil sobre [web exploitation](https://devopedia.org/web-exploitation) presente no [picoCTF](https://play.picoctf.org). O desafio consiste em analisar e inspecionar um website em busca de uma informação escondida dentro dos [cookies](https://en.wikipedia.org/wiki/HTTP_cookie) do site, como está implícito no título do desafio.
 - [Página do desafio](https://play.picoctf.org/practice/challenge/469?category=1&difficulty=1&originalEvent=74&page=1)
@@ -82,4 +81,5 @@ Agora que temos o valor do nosso cookie e seu tipo de codificação basta decodi
 Este desafio abordou conceitos básicos de web exploitation, ele nos ensina a usar as ferramentas que estão ao nosso dispor nos navegadores para achar informações importantes de maneira leve e cômica. Essas ferramentas são fundamentais para a carreira de cybersegurança, onde é preciso usar todos os recursos disponíveis de maneira eficiente. Também é importante notar que testamos hipóteses simples, sem complicar demais a resolução — uma característica importante e que pode passar despercebida.
 
 Durante a resolução do desafio somos treinados a entender que às vezes informações podem estar escondidas em lugares além do que conseguimos ver, melhorando nosso processo investigativo e curiosidade.
+
 
