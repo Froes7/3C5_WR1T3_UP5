@@ -1,2 +1,0 @@
-# 3C5_WR1T3_UP5
-CTFzada
