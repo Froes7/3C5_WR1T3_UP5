@@ -75,11 +75,12 @@ Também podemos usar a ferramenta de identificação do site [Dcode](https://www
 Agora que temos o valor do nosso cookie e seu tipo de codificação basta decodificar, para isso vamos usar a ferramenta de decodificação de Base64, novamente, do site [Dcode](https://www.dcode.fr/base-64-encoding). Assim, finalmente adquirindo a nossa flag.
 
 [![base64.jpg](https://i.postimg.cc/kMvwmvrw/base64.jpg)](https://postimg.cc/5jj85v2F)
-> `**Flag:** picoCTF{c00k1e_m0nster_l0ves_c00kies_4736F6CB}`
+> **Flag:** picoCTF{c00k1e_m0nster_l0ves_c00kies_4736F6CB}
 
 #### Conclusão
 Este desafio abordou conceitos básicos de web exploitation, ele nos ensina a usar as ferramentas que estão ao nosso dispor nos navegadores para achar informações importantes de maneira leve e cômica. Essas ferramentas são fundamentais para a carreira de cybersegurança, onde é preciso usar todos os recursos disponíveis de maneira eficiente. Também é importante notar que testamos hipóteses simples, sem complicar demais a resolução — uma característica importante e que pode passar despercebida.
 
 Durante a resolução do desafio somos treinados a entender que às vezes informações podem estar escondidas em lugares além do que conseguimos ver, melhorando nosso processo investigativo e curiosidade.
+
 
 
