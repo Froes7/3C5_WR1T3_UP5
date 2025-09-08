@@ -1,10 +1,11 @@
 # Cookie Monster Secret Recipe (PicoCTF)
 > Categoria: Web Exploitation
+> 
 > Autor: Brhane Giday e Prince Niyonshuti N.
 
 ## Desafio: Cookie Monster Secret Recipe
 #### Introdução
-Este [CTF](https://en.wikipedia.org/wiki/Capture_the_flag_(cybersecurity)) é um dos quatro desafios fáceis de [web exploitation](https://devopedia.org/web-exploitation) presentes no [picoCTF](https://play.picoctf.org). O desafio consiste em analisar e inspecionar um website em busca de uma informação escondida dentro dos [cookies](https://en.wikipedia.org/wiki/HTTP_cookie) do site, como está implícito no título do desafio.
+Este [CTF](https://en.wikipedia.org/wiki/Capture_the_flag_(cybersecurity)) é um desafio de dificuldade fácil sobre [web exploitation](https://devopedia.org/web-exploitation) presente no [picoCTF](https://play.picoctf.org). O desafio consiste em analisar e inspecionar um website em busca de uma informação escondida dentro dos [cookies](https://en.wikipedia.org/wiki/HTTP_cookie) do site, como está implícito no título do desafio.
 - [Página do desafio](https://play.picoctf.org/practice/challenge/469?category=1&difficulty=1&originalEvent=74&page=1)
 #### Análise Inicial
 
@@ -32,6 +33,7 @@ Clicando na palavra **"here"** somos direcionados ao site do Come-Come, porém, 
 (**3** Navegadores muitas vezes tem ferramentas que podem ajudar você a inspecionar vários aspectos de uma página, incluindo coisas que você não consegue ver diretamente.)
 
 Print do enunciado da questão:
+
 [![enunciado.jpg](https://i.postimg.cc/bJDHhttT/enunciado.jpg)](https://postimg.cc/2bYBd3Tb)
 
 #### Interpretação
@@ -45,6 +47,7 @@ Retornando ao website, nos deparamos com uma página de login e o título do sit
 
 Considerando o funcionamento dos cookies, primeiro temos que gerá-los ao interagir com a página, para isso, fazemos uma tentativa de login.
 Ao tentar logar nos deparamos com essa página:
+
 [![access denied.jpg](https://i.postimg.cc/B6NhMSN2/Access-denied.jpg)](https://postimg.cc/R66Q0zk0)
 > (Acesso negado
 Come-Come diz: 'Eu não precisar de nenhuma senha. Eu só precisar de biscoitos!'
@@ -73,8 +76,10 @@ Também podemos usar a ferramenta de identificação do site [Dcode](https://www
 Agora que temos o valor do nosso cookie e seu tipo de codificação basta decodificar, para isso vamos usar a ferramenta de decodificação de Base64, novamente, do site [Dcode](https://www.dcode.fr/base-64-encoding). Assim, finalmente adquirindo a nossa flag.
 
 [![base64.jpg](https://i.postimg.cc/kMvwmvrw/base64.jpg)](https://postimg.cc/5jj85v2F)
-> `**Flag:** picoCTF{c00k1e_m0nster_l0ves_c00kies_4736F6CB}`
+> **Flag:** picoCTF{c00k1e_m0nster_l0ves_c00kies_4736F6CB}
 
 #### Conclusão
 Este desafio abordou conceitos básicos de web exploitation, ele nos ensina a usar as ferramentas que estão ao nosso dispor nos navegadores para achar informações importantes de maneira leve e cômica. Essas ferramentas são fundamentais para a carreira de cybersegurança, onde é preciso usar todos os recursos disponíveis de maneira eficiente. Também é importante notar que testamos hipóteses simples, sem complicar demais a resolução — uma característica importante e que pode passar despercebida.
+
 Durante a resolução do desafio somos treinados a entender que às vezes informações podem estar escondidas em lugares além do que conseguimos ver, melhorando nosso processo investigativo e curiosidade.
+
