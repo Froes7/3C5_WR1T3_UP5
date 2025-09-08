@@ -39,6 +39,10 @@ Antes de aplicarmos o comando fornecido, daremos uma olhada nas três dicas do d
 > **3** Is there any syntax that is ripe for subversion?
 (Existe alguma sintaxe que esteja pronta para subversão?)
 
+Print do enunciado da questão:
+
+[![pringflaghunters.jpg](https://i.postimg.cc/XY9hwvbX/pringflaghunters.jpg)](https://postimg.cc/v4H3ybDd)
+
 ### Interpretação
 
 O enunciado e as dicas que foram fornecidas nos induzem a fazer uma entrada no programa aproveitando de um erro de sintaxe para nos exibir a *flag* oculta.
@@ -230,3 +234,4 @@ writeup;RETURN 0
 Neste desafio podemos perceber a importância de um código bem estruturado, pois qualquer erro de sintaxe ou entrada não validada pode ser explorada por atacantes e levar a uma vulnerabilidade de segurança grave.
 
 Também conseguimos colocar em prática nossa habilidade de análise de código e engenharia reversa, duas ferramentas muito importantes e úteis dentro do cenário de cybersegurança.
+
