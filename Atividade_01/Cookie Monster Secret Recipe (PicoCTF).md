@@ -3,11 +3,10 @@
 > 
 > Autor: Brhane Giday e Prince Niyonshuti N.
 
-## Desafio: Cookie Monster Secret Recipe
-#### Introdução
+### Introdução
 Este [CTF](https://en.wikipedia.org/wiki/Capture_the_flag_(cybersecurity)) é um desafio de dificuldade fácil sobre [web exploitation](https://devopedia.org/web-exploitation) presente no [picoCTF](https://play.picoctf.org). O desafio consiste em analisar e inspecionar um website em busca de uma informação escondida dentro dos [cookies](https://en.wikipedia.org/wiki/HTTP_cookie) do site, como está implícito no título do desafio.
 - [Página do desafio](https://play.picoctf.org/practice/challenge/469?category=1&difficulty=1&originalEvent=74&page=1)
-#### Análise Inicial
+### Análise Inicial
 
 O enunciado do desafio é o seguinte:
 > Cookie Monster has hidden his top-secret cookie recipe somewhere on his website. As an aspiring cookie detective, your mission is to uncover this delectable secret. Can you outsmart Cookie Monster and find the hidden recipe?
@@ -36,10 +35,10 @@ Print do enunciado da questão:
 
 [![enunciado.jpg](https://i.postimg.cc/bJDHhttT/enunciado.jpg)](https://postimg.cc/2bYBd3Tb)
 
-#### Interpretação
+### Interpretação
 As dicas e o contexto do desafio nos induzem a suspeitar que o que estamos atrás está escondido dentro das informações do site, mais especificamente, nos [cookies](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies) presentes na página, nos quais pode haver alguma informação importante, tendo em vista a dica de número dois e o nome do famoso personagem da série Vila Sésamo "Cookie Monster", ou [Come-Come](https://en-m-wikipedia-org.translate.goog/wiki/Cookie_Monster?_x_tr_sl=en&_x_tr_tl=pt&_x_tr_hl=pt&_x_tr_pto=tc) em português.
 
-#### Resolução
+### Resolução
 Retornando ao website, nos deparamos com uma página de login e o título do site:
 
 [![Página de login.jpg](https://i.postimg.cc/yxHVXTQD/P-gina-de-login.jpg)](https://postimg.cc/47WkXpTG)
@@ -78,8 +77,9 @@ Agora que temos o valor do nosso cookie e seu tipo de codificação basta decodi
 [![base64.jpg](https://i.postimg.cc/kMvwmvrw/base64.jpg)](https://postimg.cc/5jj85v2F)
 > **Flag:** picoCTF{c00k1e_m0nster_l0ves_c00kies_4736F6CB}
 
-#### Conclusão
+### Conclusão
 Este desafio abordou conceitos básicos de web exploitation, ele nos ensina a usar as ferramentas que estão ao nosso dispor nos navegadores para achar informações importantes de maneira leve e cômica. Essas ferramentas são fundamentais para a carreira de cybersegurança, onde é preciso usar todos os recursos disponíveis de maneira eficiente. Também é importante notar que testamos hipóteses simples, sem complicar demais a resolução — uma característica importante e que pode passar despercebida.
 
 Durante a resolução do desafio somos treinados a entender que às vezes informações podem estar escondidas em lugares além do que conseguimos ver, melhorando nosso processo investigativo e curiosidade.
+
 
