@@ -227,5 +227,6 @@ writeup;RETURN 0
 > **flag:** picoCTF{70637h3r_f0r3v3r_0099cf61}
 
 ### Conclusão
-Neste desafio podemos perceber a importância de um código bem estruturado, pois qualquer erro de sintaxe ou entrada não validada pode ser explorada b hnpor atacantes e levar a uma vulnerabilidade de segu ança grave.
+Neste desafio podemos perceber a importância de um código bem estruturado, pois qualquer erro de sintaxe ou entrada não validada pode ser explorada por atacantes e levar a uma vulnerabilidade de segurança grave.
+
 Também conseguimos colocar em prática nossa habilidade de análise de código e engenharia reversa, duas ferramentas muito importantes e úteis dentro do cenário de cybersegurança.
