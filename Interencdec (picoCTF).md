@@ -46,7 +46,7 @@ Como esperado, a ferramenta de identificação apontou para ***Base64***, logo u
 ```sh
 b'd3BqdkpBTXtqaGx6aHlfazNqeTl3YTNrX20wMjEyNzU4fQ=='
 ```
-Agora que decodificamos uma *"camada"* de criptografia da nossa flag podemos notar algo diferente, nossa [***string***](https://en.wikipedia.org/wiki/String_(computer_science)) agora está com "**b'...'**" em volta. Ao pesquisar, descobrimos que esse "b" é uma representação de um objeto [***bytes***](https://stackoverflow.com/questions/6269765/what-does-the-b-character-do-in-front-of-a-string-literal?utm_source=chatgpt.com) em [***Python***](https://aws.amazon.com/pt/what-is/python/), e não faz parte da nossa *flag*. Isso pode ter se originado de um programa em *python* que o autor usou durante a criação do desafio ou talvez foi colocado intencionalmente para confundir levemente quem tentar resolver a questão.
+Agora que decodificamos uma *"camada"* de criptografia da nossa flag podemos notar algo diferente, nossa [***string***](https://en.wikipedia.org/wiki/String_(computer_science)) agora está com "*b'...'*" em volta. Ao pesquisar, descobrimos que esse "b" é uma representação de um objeto [***bytes***](https://stackoverflow.com/questions/6269765/what-does-the-b-character-do-in-front-of-a-string-literal?utm_source=chatgpt.com) em [***Python***](https://aws.amazon.com/pt/what-is/python/), e não faz parte da nossa *flag*. Isso pode ter se originado de um programa em *python* que o autor usou durante a criação do desafio ou talvez foi colocado intencionalmente para confundir levemente quem tentar resolver a questão.
 Enfim, após remover os caracteres indesejados da *string* ela fica assim:
 
 ```sh
@@ -74,3 +74,4 @@ Percebe-se um padrão de *flag* ao passar a *string* pelo decodificador. "wpjvJA
 Neste desafio vimos conceitos básicos de criptografia, servindo como uma ótima prática para afinar nosso processo de resolução de questões. 
 
 Também aprendemos que o caminho para a resposta pode não ser direto, tendo em mente que conhecimento prático é um divisor na área de segurança cibernética.
+
