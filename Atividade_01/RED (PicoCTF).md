@@ -29,10 +29,12 @@ Print do enunciado da questão:
 [![printred.jpg](https://i.postimg.cc/v8JDBPHM/printred.jpg)](https://postimg.cc/rz9qZNrY)
 
 Red.png:
+
 [![red.png](https://i.postimg.cc/yYx3QCf3/red.png)](https://postimg.cc/mtxrkJWT)
+
 ### Interpretação
 
-Agora com as informações que coletamos, podemos assumir que devemos procurar por informações em algum lugar da imagem. A terceira dica nos aponta para os [metadados](https://pt.wikipedia.org/wiki/Metadados) da imagem, visto que a empresa Facebook, em 2021, mudou o seu nome para [Meta](https://www.meta.com/pt-br/about/?srsltid=AfmBOoqTnDhT58d4_cV0nivM678rtOG_3BigDPMdLy5Pfsb17az0EhVU). Para isso, iremos usar uma ferramenta chamada de [Exiftool](https://en.wikipedia.org/wiki/ExifTool), essa ferramenta é usada tanto para leitura
+Agora com as informações que coletamos, podemos assumir que devemos procurar por informações em algum lugar do arquivo. A terceira dica nos aponta para os [metadados](https://pt.wikipedia.org/wiki/Metadados) da imagem, visto que a empresa Facebook, em 2021, mudou o seu nome para [Meta](https://www.meta.com/pt-br/about/?srsltid=AfmBOoqTnDhT58d4_cV0nivM678rtOG_3BigDPMdLy5Pfsb17az0EhVU). Para isso, iremos usar uma ferramenta chamada de [Exiftool](https://en.wikipedia.org/wiki/ExifTool), essa ferramenta é usada tanto para leitura
 quanto para modificação dos metadados de um arquivo.
 
 ```sh
@@ -51,6 +53,7 @@ Essa mensagem não precisa de tradução, visto que o conteúdo em si não nos d
 (Verifique o LSB)
 
 O termo "LSB" nessa pista se refere ao [*Least significant bit*](https://en.wikipedia.org/wiki/Bit_numbering), basicamente, o LSB é o bit de um arquivo que pode ser manipulado para esconder mensagens sem fazer uma modificação notável no conteúdo, isso é chamado de [*LSB stenography*](https://medium.com/@renantkn/lsb-steganography-hiding-a-message-in-the-pixels-of-an-image-4722a8567046), ou, estenografia de LSB. Em imagens, é possível manipulá-lo sem gerar uma mudança visível, como mudar levemente uma cor de um pixel ou de uma parte do conteúdo.
+
 Para verificar o LSB, usaremos outra ferramenta chamada de [Zsteg](https://cybersectools.com/tools/zsteg), essa ferramenta realiza exatamente o que precisamos: ela detecta mensagens escondidas no LSB e nos imprime o resultado da varredura.
 
 [![zstegred.jpg](https://i.postimg.cc/htNbntJd/zstegred.jpg)](https://postimg.cc/rDCtCcNV)
@@ -71,4 +74,5 @@ O site nos apontou para a codificação [Base64](https://en.wikipedia.org/wiki/B
 
 ### Conclusão
 Neste desafio utilizamos vários conceitos básicos de forense digital, nessa categoria de questões, é importante o poder de dedução de quem estiver resolvendo, visto que é normal pistas possuírem mais de uma interpretação ou informações estarem escondidas em plena vista.
+
 Também é importante ressaltar o conhecimento sobre tipos de arquivos e suas propriedades, isso é crucial para a área de cybersegurança pois há diversas maneiras de esconder mensagens dentro de um arquivo que pode parecer puro à primeira vista.
